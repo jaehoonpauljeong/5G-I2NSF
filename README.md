@@ -22,5 +22,5 @@
 7. The UE’s data network access logs are collected and sent to the Security Data Analytics Function (SDAF) as monitoring reports.
 8. These reports are analyzed by SDAF to verify whether the security policy is enforced well by NSFs or not.
 
-## Future Work
+## Next Step
 - We plan to leverage LLMs to interpret natural language intents and generate YAML-based policies automatically, while AI-driven analysis will enhance security through adaptive learning, anomaly detection, and policy optimization.
