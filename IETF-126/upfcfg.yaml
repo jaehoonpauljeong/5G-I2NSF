@@ -1,0 +1,24 @@
+version: 1.0.3
+description: Edge UPF configuration
+
+pfcp:
+  addr: 10.250.0.11
+  nodeID: 10.250.0.11
+  retransTimeout: 1s
+  maxRetrans: 3
+
+gtpu:
+  forwarder: gtp5g
+  ifList:
+    - addr: 10.250.0.11
+      type: N3
+
+dnnList:
+  - dnn: internet
+    cidr: 10.61.0.0/16
+    natifname: ens33
+
+logger:
+  enable: true
+  level: info
+  reportCaller: false
