@@ -1,7 +1,7 @@
 # 5G-I2NSF
-- This study presents an integrated framework for automated security orchestration in 5G edge networks based on the Interface to Network Security Functions (I2NSF) system.
-- The proposed system translates a high-level security policy in YANG/XML into the corresponding low-level security policy in YANG/XML and dynamically deploys the corresponding Network Security Functions (NSFs) within the User Plane Function (UPF).
-- It also supports seamless policy migration during UE handovers, minimizing latency and ensuring consistent security enforcement across distributed edge environments.
+- This project develops a 5G Core-assisted I2NSF framework that coordinates security policy orchestration with the 3GPP-aligned N2-based handover procedure. 
+- The proposed system proactively migrates the verified security policy context from the Source NSF to the Target NSF before UE traffic is switched from the S-UPF path to the T-UPF path. 
+- Edge-deployed NSFs, co-located with UPFs, enforce the migrated policy on the N6 traffic path, while SDAF monitors the enforcement result for closed-loop validation.
 
 <img width="1700" height="800" alt="Image" src="./5G-I2NSF System Architecture.png" />
 
@@ -25,4 +25,4 @@
 
 
 ## Next Step
-- We plan to leverage LLMs to interpret natural language intents and generate YAML-based policies automatically, while AI-driven analysis will enhance security through adaptive learning, anomaly detection, and policy optimization.
+- Integrate AI-based intent interpretation with SDAF feedback analysis for automated policy refinement and security service management.
