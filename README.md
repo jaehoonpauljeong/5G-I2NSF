@@ -6,7 +6,7 @@ This project develops an Agentic AI Security Framework for intent-based security
 - The framework proactively prepares and activates security policies on the Target NSF before a network path change, ensuring security policy continuity during handover or roaming.
 - Policy Memory stores security policies and verification evidence, while the SCF Agent performs live enforcement verification before releasing the old policy on the Source NSF.
 
-<img width="1700" height="800" alt="Agentic AI Security Framework Architecture" src="./5G-I2NSF System Architecture.png" />
+<img width="1700" height="800" alt="Agentic AI Security Framework Architecture" src="./Agentic AI Security Framework.png" />
 
 ## Development Environment
 - OS: Ubuntu 24.04
