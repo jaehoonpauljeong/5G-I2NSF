@@ -1,4 +1,4 @@
-# 5G-I2NSF
+# Agentic AI Security Framework
 - This project develops a 5G Core-assisted I2NSF framework that coordinates security policy orchestration with the 3GPP-aligned N2-based handover procedure. 
 - The proposed system proactively migrates the verified security policy context from the Source NSF to the Target NSF before UE traffic is switched from the S-UPF path to the T-UPF path. 
 - Edge-deployed NSFs, co-located with UPFs, enforce the migrated policy on the N6 traffic path, while SDAF monitors the enforcement result for closed-loop validation.
