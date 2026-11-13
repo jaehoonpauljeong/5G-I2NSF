@@ -1,12 +1,12 @@
 # Agentic AI Security Framework for Security Management
 This project develops an Agentic AI Security Framework for intent-based security management across distributed network environments. The framework integrates a Security Automation Function (SAF) Agent and a Security Control Function (SCF) Agent to translate security intents into enforceable security policies and maintain security policy continuity during network mobility.
 
+<img width="1400" height="600" alt="Agentic AI Security Framework Architecture" src="./Agentic AI Security Framework.png" />
+
 - The SAF Agent translates an administrator's security intent into a high-level security policy and coordinates security management with the SCF Agent.
 - The SCF Agent plans, installs, and verifies low-level security policies on distributed Network Security Functions (NSFs) through an Observe–Reason–Act–Verify loop with deterministic checks.
 - The framework proactively prepares and activates security policies on the Target NSF before a network path change, ensuring security policy continuity during handover or roaming.
 - Policy Memory stores security policies and verification evidence, while the SCF Agent performs live enforcement verification before releasing the old policy on the Source NSF.
-
-<img width="1700" height="800" alt="Agentic AI Security Framework Architecture" src="./Agentic AI Security Framework.png" />
 
 ## Development Environment
 - OS: Ubuntu 24.04
